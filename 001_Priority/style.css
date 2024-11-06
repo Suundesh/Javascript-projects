@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-primary: Courier New, monospace;
+    --color-background: #011817;
+    --text-color: white;
+    --text-alignment: center;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--text-color);
+    text-align: var(--text-alignment);
+    line-height: 1.6;
+}
+
+#heading {
+    padding: 3rem;
+}
+
+/* .userInput {
+    padding-top: 2rem;
+} */
+.userInput001 {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 20rem;
+}
+
+.userSelect001 {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+.button001 {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 5rem;
+    background-color: #dd5a22;
+    border-color: #f39f7b;
+}
+
+.tableDisplay {
+    border: 1px solid #f39f7b;
+    width: 80%;
+    margin: 3rem auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tableDisplay td,
+.tableDisplay th {
+    border: 1px solid #f39f7b;
+    padding: 0.5rem 1rem;
+}
+
+.status-dropdown {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.status-dropdown:hover {
+    background-color: #e0e0e0;
+}
